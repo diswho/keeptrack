@@ -38,10 +38,10 @@ function ProjectForm({
     // need to do functional update b/c
     // the new project state is based on the previous project state
     // so we can keep the project properties that aren't being edited +like project.id
-    // the spread operator (...) is used to
-    // spread the previous project properties and the new change
+    // the spread operator (...) is used to spread the previous project properties and the new change
     setProject((p) => {
       updatedProject = new Project({ ...p, ...change });
+      // updatedProject = new Project({ p, change });
       return updatedProject;
     });
   };
