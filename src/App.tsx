@@ -1,9 +1,9 @@
 import React from "react";
 import "./App.css";
-import ProjectsPage from "./projects/ProjectsPage";
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
 import { NavLink } from "react-router-dom";
 import HomePage from "./home/HomePage";
+import ProjectsPage from "./projects/ProjectsPage";
 import ProjectPage from "./projects/ProjectPage";
 // test
 
